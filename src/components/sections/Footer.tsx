@@ -1,10 +1,9 @@
 import Link from 'next/link'
 
 const HOURS = [
-  { day: 'Monday', hours: 'Closed' },
-  { day: 'Tue – Fri', hours: '9am – 7pm' },
-  { day: 'Saturday', hours: '8am – 6pm' },
-  { day: 'Sunday', hours: '10am – 4pm' },
+  { day: 'Mon – Fri', hours: '10:30am – 7pm' },
+  { day: 'Saturday', hours: '8am – 7pm' },
+  { day: 'Sunday', hours: '9am – 3pm' },
 ]
 
 const LINKS = [

@@ -136,7 +136,7 @@ export default function BookPage() {
                   </div>
                   <div>
                     <p className="font-black text-sm text-white">Pick your time</p>
-                    <p className="text-xs font-semibold text-white/40 mt-0.5">We&apos;re open Tue–Sun</p>
+                    <p className="text-xs font-semibold text-white/40 mt-0.5">We&apos;re open Mon–Sun</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
