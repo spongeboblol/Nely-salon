@@ -59,7 +59,7 @@ export default function About() {
             <motion.div {...slideUp(0.45)} className="mt-10 flex items-center gap-6">
               <div className="h-px flex-1 bg-black/10" />
               <p className="text-xs font-black tracking-[0.18em] uppercase text-white/30">
-                Est. 2010 · El Monte, CA
+                Est. 2006 · El Monte, CA
               </p>
               <div className="h-px flex-1 bg-black/10" />
             </motion.div>
