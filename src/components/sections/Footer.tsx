@@ -30,7 +30,7 @@ export default function Footer() {
               Salon & Barbershop. Where every cut tells a story.
             </p>
             <a
-              href="https://www.instagram.com/nelys_salonandbarbershop"
+              href="https://www.instagram.com/nelys_salonandbarbershop?utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-5 text-xs font-black tracking-[0.14em] uppercase text-accent hover:text-white transition-colors duration-200"
