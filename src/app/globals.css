@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: auto; /* Lenis handles smooth scroll */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-ink text-white font-sans overflow-x-hidden;
+  }
+
+  /* Hide default cursor on desktop for custom cursor */
+  @media (min-width: 768px) {
+    *,
+    *::before,
+    *::after {
+      cursor: none !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Clip overflow for text reveal animations */
+  .overflow-clip {
+    overflow: clip;
+  }
+}
+
+/* ─── Marquee ─────────────────────────────────────────── */
+.marquee-track {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ─── Page transition overlay ─────────────────────────── */
+.page-transition-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: #fff;
+  pointer-events: none;
+  transform-origin: bottom;
+}
+
+/* ─── Selection ───────────────────────────────────────── */
+::selection {
+  background: #C9A532;
+  color: #fff;
+}
+
+/* ─── Scrollbar (WebKit) ──────────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A532;
+  border-radius: 2px;
+}
