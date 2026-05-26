@@ -38,6 +38,15 @@ export default function Footer() {
               <span>@nelys_salonandbarbershop</span>
               <span>↗</span>
             </a>
+            <a
+              href="https://www.tiktok.com/@nelys.purebeautycreation?_r=1&_t=ZT-96fVVl0e2n8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-3 text-xs font-black tracking-[0.14em] uppercase text-accent hover:text-white transition-colors duration-200"
+            >
+              <span>@nelys.purebeautycreation</span>
+              <span>↗</span>
+            </a>
           </div>
 
           {/* Navigation */}
